@@ -1,0 +1,91 @@
+.user-create {
+  margin: 0 0 0 100px;
+}
+
+.user-create-wrapper {
+  width: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.user-create-wrapper > h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #A78282;
+}
+
+.user-create-wrapper > p {
+  margin-right: 150px;
+  font-size: 16px;
+  color: #B4624A;
+}
+
+.user-create-form {
+  padding-left: 20px;
+  border-left: 2px solid #B4624A;
+  width: 640px;
+}
+
+.user-create-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.user-create-item > p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #855446;
+}
+
+.user-create-item > input {
+  width: 395px;
+  height: 30px;
+  outline: none;
+  border: 1px solid #786059;
+  border-radius: 10px;
+  background-color: #D7CECB;
+  color: #A99690;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.user-create-func > button {
+  width: 120px;
+  height: 40px;
+  background-color: #B4624A;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-right: 50px;
+}
+
+.user-create-func > button:hover {
+  background-color: #b97a67;
+  cursor: pointer;
+}
+
+.user-create-func--cancel {
+  width: 120px;
+  height: 40px;
+  padding: 10px 40px;
+  background-color: #F1EAEA;
+  color: #9E7E74;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.user-create-func--cancel:hover {
+  background-color: #dccece;
+
+}

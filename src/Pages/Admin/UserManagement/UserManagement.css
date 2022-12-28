@@ -1,0 +1,169 @@
+.user-mng {
+  max-width: 1200px;
+  margin: 0 auto 40px;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.user-mng-wrap {
+  display: flex;
+  margin: 0 0 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-mng-create {
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 23px;
+  color: #fff;
+  background-color: #B4624A;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  line-height: 60px;
+}
+
+.user-mng-wrap > button:hover {
+  background-color: #b57e6d;
+}
+
+.user-mng-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 430px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: #D7CECB;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.user-mng-search > input {
+  border: none;
+  outline: none;
+  background-color: #D7CECB;
+  color: #A38177;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.user-mng-search--icon {
+  color: #A38177;
+  font-size: 26px;
+  margin-right: 10px;
+}
+
+.user-mng > h1 {
+  margin-bottom: 30px;
+}
+
+.user-mng > table {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.user-mng > table,
+.user-mng > table tr {
+  border-collapse: collapse;
+}
+
+.user-mng > table tr {
+  height: 67px;
+  border-bottom: 2px #CBCBCB solid;
+}
+
+.user-mng > table th,
+.user-mng > table td {
+  text-align: center;
+}
+
+.user-mng > table > thead {
+  background-color: #A38177;
+  color: #FFDDB6;
+  font-size: 20px;
+}
+
+.user-mng > table > tbody {
+  background-color: #F1EAEA;
+  color: #785044;
+}
+
+.user-mng-delete-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.user-mng-delete {
+  width: 650px;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #D7CECB;
+  position: relative;
+  border-radius: 10px;
+}
+
+.user-mng-delete > h3 {
+  width: 100%;
+  height: 70px;
+  background-color: #786059;
+  font-size: 25px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  justify-content: center;
+}
+
+.user-mng-delete-icon {
+  position: absolute;
+  font-size: 25px;
+  color: #D7CECB;
+  top: 22px;
+  cursor: pointer;
+  right: 10px;
+}
+
+.user-mng-delete > p {
+  margin: 30px auto;
+  font-size: 20px;
+}
+
+.user-mng-delete button {
+  width: 225px;
+  height: 60px;
+  font-size: 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #AA918A;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.user-mng-delete button:hover {
+  background-color: #ac9e9a;
+}
+
+.user-mng-delete button:last-child {
+  background-color: #B4624A;
+}
+
+.user-mng-delete button:last-child:hover {
+  background-color: #b77864;
+}

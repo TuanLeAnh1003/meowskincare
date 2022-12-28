@@ -1,0 +1,65 @@
+.ad-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #D7CECB;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.ad-header > .ad-header__item {
+  display: flex;
+  align-items: end;
+  width: 25%;
+}
+
+.ad-header > .ad-header__user {
+  align-items: center;
+}
+
+.ad-header > .ad-header__item > svg {
+  font-size: 25px;
+  margin-right: 20px;
+  color: #786059;
+} 
+
+.ad-header > .ad-header__item > h3 {
+  font-size: 20px;
+  color: #786059;
+}
+
+.ad-header > .ad-header__item > p {
+  font-size: 20px;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ad-header > .ad-header__item > img {
+  object-fit: cover;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.ad-header > .ad-header__logo {
+  width: 25%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding-left: 4%;
+  margin-right: 50px;
+}
+
+.ad-header > .ad-header__logo > img {
+  margin-right: 10px;
+  object-fit: contain;
+  width: 50px;
+}
+
+.ad-header > .ad-header__logo > div {
+  text-align: right;
+  color: #855446;
+}

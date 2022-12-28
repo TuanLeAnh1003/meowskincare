@@ -1,0 +1,25 @@
+.advertisement {
+  padding: 50px 0;
+  width: 45%;
+}
+
+.advertisement > img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.advertisement > h2 {
+  font-size: 30px;
+  margin: 30px 0 20px 0;
+}
+
+.advertisement > p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1024px) {
+  .advertisement {
+    width: 100%;
+  }
+}

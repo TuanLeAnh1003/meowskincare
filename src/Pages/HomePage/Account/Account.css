@@ -1,0 +1,145 @@
+.account {
+  display: flex;
+}
+
+.account-nav {
+  width: 200px;
+  background-color: #F2ECEB;
+}
+
+.account-nav-name {
+  width: 100%;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.account-nav-update {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 4px;
+}
+
+.account-nav-update:hover {
+  cursor: pointer;
+  background-color: #6c6867;
+  color: #fff
+}
+
+.account-nav-update:hover > .account-nav-update--icon {
+  color: #fff;
+}
+
+.account-nav-update--icon {
+  font-size: 28px;
+  color: #614F4A;
+}
+
+.account-nav-update--title {
+  font-size: 20px;
+  font-weight: medium;
+}
+
+.account-info {
+  width: 1300px;
+  padding: 60px 70px;
+} 
+
+.account-info-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.account-info-desc {
+  font-size: 20px;
+  font-weight: medium;
+  margin: 20px 0;
+}
+
+.account-info-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.account-info-left {
+  
+}
+
+.account-info-left-item {
+  width: 835px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.account-info-left-item label {
+  font-size: 20px;
+  font-weight: medium;
+}
+
+.account-info-left-item input[type="text"],
+.account-info-left-item input[type="email"],
+.account-info-left-item input[type="date"] {
+  width: 600px;
+  height: 50px;
+  background-color: #EDE1DF;
+  color: #000;
+  padding: 20px;
+  border: 1px solid #382d2a;
+  outline: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.account-info-left-item input::placeholder {
+  color: rgba(176, 143, 134, 0.9)
+}
+
+.account-info-left-item-gender {
+  display: flex;
+  width: 600px;
+  height: 50px;
+  font-size: 25px;
+  align-items: center;
+}
+
+.account-info-left-item-gender label {
+  margin-right: 20px;
+}
+
+.account-info-left-item-gender input {
+  margin-right: 5px;
+}
+
+.account-info-right {
+  text-align: center;
+}
+
+.account-info-right-image {
+  width: 160px;
+  height: 160px;
+  border: 1px solid #382d2a;
+  margin-bottom: 10px;
+}
+
+.account-info-submit {
+  width: 150px;
+  height: 50px;
+  background-color: #B4624A;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 500px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.account-info-submit:hover {
+  background-color: #b57f6e;
+}

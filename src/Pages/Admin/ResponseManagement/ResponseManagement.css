@@ -1,0 +1,40 @@
+.res-mng {
+  width: 1075px;
+  margin: 0 auto 40px;
+  overflow-x: hidden;
+}
+
+.res-mng > h1 {
+  margin-bottom: 30px;
+}
+
+.res-mng > table {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.res-mng > table,
+.res-mng > table tr {
+  border-collapse: collapse;
+}
+
+.res-mng > table tr {
+  height: 67px;
+  border-bottom: 2px #CBCBCB solid;
+}
+
+.res-mng > table th,
+.res-mng > table td {
+  text-align: center;
+}
+
+.res-mng > table > thead {
+  background-color: #A38177;
+  color: #FFDDB6;
+  font-size: 20px;
+}
+
+.res-mng > table > tbody {
+  background-color: #F1EAEA;
+  color: #785044;
+}

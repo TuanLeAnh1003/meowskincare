@@ -1,0 +1,27 @@
+.creator {
+  width: 245px;
+  height: 334px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.creator > img {
+  width: 203px;
+  object-fit: contain;
+  border-radius: 120px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.creator > p:nth-child(2) {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.creator > p:nth-child(3) {
+  width: 128px;
+  font-size: 18px;
+  text-align: center;
+}

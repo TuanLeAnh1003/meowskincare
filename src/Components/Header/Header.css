@@ -1,0 +1,347 @@
+.header {
+  position: sticky;  
+  top: 0;
+  width: 100%;
+  z-index: 9000;
+}
+
+.header-first {
+  height: 40px;
+  background-color: #614F4A;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+.header-first svg {
+  margin-right: 10px;
+  font-size: 1.5625em;
+}
+
+.header-first > .header-first__more {
+  width: 55%;
+}
+
+.header-first > .header-first__more > .header-first__more-item:hover {
+  cursor: pointer;
+  background-color: #4e403d;
+}
+
+/* .header-first, */
+.header-first > .header-first__search,
+.header-first > .header-first__more,
+.header-first > .header-first__more > .header-first__more-item,
+.header-second,
+.header-second > .header-second__logo,
+.header-second > .header-second__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-first > .header-first__search {
+  width: 40%;
+}
+
+.header-first > .header-first__more > .header-first__more-item {
+  padding: 4px 8px;
+}
+
+.header-first > .header-first__more > .header-first__more-item > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-first > .header-first__more > .header-first__more-search {
+  width: fit-content;
+  justify-content: flex-end;
+}
+
+
+.header-first > .header-first__search > input {
+  height: 30px;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  padding: 0 10px;
+  outline: none;
+}
+
+.header-second {
+  height: 55px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 14px, rgba(0, 0, 0, 0.05) 0px 4px 3px;
+}
+
+.header-second__bars {
+  font-size: 1.5em;
+  color: #614F4A;
+  display: none;
+}
+
+.header-second > .header-second__logo > img {
+  margin-right: 10px;
+  object-fit: contain;
+  width: 50px;
+}
+
+.header-second > .header-second__logo > div {
+  text-align: right;
+  color: #855446;
+  height: 55px;
+}
+
+.header-second > .header-second__logo > div > h2 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.header-second > .header-second__logo > div > span {
+  font-size: 0.8em;
+}
+
+.header-second > .header-second__logo {
+  text-decoration: none;
+}
+
+.header-second > .header-second__nav {
+  /* width: 50%; */
+  font-size: 0.8em;
+  list-style-type: none;
+  margin: 0;
+}
+
+.header-second > .header-second__nav > a:hover {
+  font-weight: bold;
+  color: #614F4A;
+}
+
+.header-second > .header-second__nav > a {
+  padding: 0 20px;
+  border-right: 1px solid rgba(113, 101, 101, 0.48);
+  font-size: 1.75em;
+  text-decoration: none;
+  color: #000;
+}
+
+.header-second > .header-second__nav > li:last-child {
+  border: none;
+}
+
+.header-second > .header-second__nav > li > svg {
+  margin-left: 5px;
+}
+
+.header-second > .header-second__nav > li:hover,
+.header-second > .header-second__cart > svg,
+.header-second > .header-second__logo {
+  cursor: pointer;
+}
+
+.header-second > .header-second__cart > svg {
+  font-size: 1.875em;
+  color: #855446;
+}
+
+.user-avatar {
+  object-fit: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 10%;
+}
+
+.user-button {
+  text-decoration: none;
+  color: #fff;
+}
+
+.user-button > p {
+  width: 150px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: right;
+  margin: 0;
+  color: #fff;
+}
+
+.header-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3)
+} 
+
+.header-mobile__nav-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  max-width: 100%;
+  animation: fadeIn 0.5s linear;
+
+}
+
+.header-mobile__nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-mobile__nav a {
+  text-decoration: none;
+  padding: 30px;
+  padding-left: 40px;
+  font-size: 1.4em;
+  color: #000;
+}
+
+.header-mobile__nav a:hover {
+  background-color: rgb(235, 182, 156);
+  color: #000;
+  font-weight: bold;
+}
+
+.header-mobile__nav-icon {
+  width: 1.4em;
+  height: 1.4em;
+  font-size: 1.4rem;
+  color: #666;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  cursor: pointer;
+}
+
+.header-mobile__nav-icon:hover {
+  color: #333;
+}
+
+.header-third {
+  height: 3.75em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #A29998;
+}
+
+.header-third > h2 {
+  margin: 0 5%;
+  font-size: 1.375em;
+}
+
+.header-third > h2,
+.header-third > svg {
+  color: rgba(120, 112, 112, 0.63);
+}
+
+/* Tablet and Mobile w<=1023px */
+@media screen and (max-width: 63.9375em) {
+  .header-second > .header-second__nav {
+    display: none;
+  }
+
+  .header-second__bars {
+    display: block;
+    cursor: pointer;
+  }
+
+
+}
+
+/* Tablet w>= 740px and w<=1024px*/
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+
+  .header-first > .header-first__more > .header-first__more-item {
+    text-align: center;
+  }
+
+  .header-first > .header-first__more > .header-first__more-item {
+    margin: 0 4px;
+  }
+
+  .header-second__logo {
+    font-size: 0.75em;
+  }
+
+  .header-second > .header-second__logo > img {
+    width: 4em;
+  }
+
+  .header-second {
+    height: 4em;
+  }
+
+  .header-third {
+    height: 2em;
+  }
+
+  .header-third > h2 {
+    font-size: 1em
+  }
+}
+
+/* Mobile w<=739px */
+@media only screen and (max-width: 46.1875em) {
+
+  .header-first {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .header-first > .header-first__search,
+  .header-first > .header-first__more {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .header-first > .header-first__more > .header-first__more-item {
+    margin: 0 4px;    
+    text-align: center;
+    padding: 4px 8px;
+  }
+
+  .header-second__logo {
+    font-size: 0.5em;
+  }
+
+  .header-second__logo-2 {
+    font-size: 0.75em;
+  }
+
+  .header-second__logo-2 > img {
+    margin: 0 auto;
+    margin-left: 50px;
+  }
+
+  .header-second__logo-2 > img {
+    width: 3em;
+
+  }
+
+  .header-second > .header-second__logo > img {
+    width: 4em;
+  }
+
+  .header-second {
+    height: 4em;
+  }
+
+  .header-third {
+    height: 1.75em;
+  }
+
+  .header-third > h2 {
+    font-size: 0.75em
+  }
+}

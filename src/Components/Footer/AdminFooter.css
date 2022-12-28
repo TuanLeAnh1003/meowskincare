@@ -1,0 +1,22 @@
+.ad-footer {
+  background-color: #F1EAEA;
+  /* width: calc(100vw - 200px); */
+}
+
+.ad-footer > .ad-footer__logo {
+  width: fit-content;
+  margin: 0 auto;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.ad-footer > .ad-footer__logo > img {
+  margin-right: 10px;
+  object-fit: contain;
+}
+
+.ad-footer > .ad-footer__logo > div {
+  text-align: right;
+  color: #855446;
+}

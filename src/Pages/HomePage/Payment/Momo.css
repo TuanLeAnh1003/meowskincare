@@ -1,0 +1,95 @@
+
+.momo {
+  display: flex;
+  margin: 0 auto;
+  padding: 50px 100px;
+  font-size: 18px;
+}
+
+.momo-left {
+  width: 50%;
+  text-align: center;
+}
+
+.momo-left-policy {
+  margin: 10px 30px;
+  width: 80%;
+  border-bottom: 2px solid #C7C2C1;
+  line-height: 40px;
+}
+
+.momo-left-policy-detail {
+  color: #855446;
+  margin-left: 5px;
+}
+
+.momo-left-desc {
+  color: #9D9C9C;
+  font-size: 20px;
+}
+
+.momo-left-logo {
+  margin: 10px 0;
+
+}
+
+.momo-left-info {
+  width: 100%;
+  background-color: #D7CECB;
+  padding: 15px 0;
+  margin: 10px 0;
+}
+
+.momo-left-info-item {
+  line-height: 25px;
+}
+
+.momo-left-note {
+  margin: 30px 0;
+  padding: 10px;
+  font-weight: medium;
+  border: 1px solid #000;
+}
+
+.momo-left-qr {
+  border-top: 1px solid #C7C2C1;
+  border-bottom: 1px solid #C7C2C1;
+  padding: 20px 0;
+  margin: 10px 0;
+}
+
+.momo-left-handle {
+  color: #3B8A35;
+  margin: 20px 0;
+}
+
+
+.momo-right {
+  width: 50%;
+} 
+
+.momo-right-accept {
+  color: #458D3F;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+  margin-top: 50px;
+}
+
+.momo-right-export {
+  font-size: 20px;
+  background-color: #B4624A;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  width: 192px;
+  height: 50px;
+  font-weight: bold;
+  margin-left: 230px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.momo-right-export:hover {
+  opacity: 0.8;
+}

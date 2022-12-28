@@ -1,0 +1,98 @@
+
+.sale__category-item {
+  padding: 0 4px;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* height: 100%; */
+}
+
+.sale__category-item-title-wrap {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.sale__category-item-title {
+  font-weight: bold;
+  font-size: 1.5625em;
+  color: #A35D49;
+  margin-bottom: 10px;
+}
+
+.sale__category-item-title-icon {
+  width: 1.25em;
+  height: 1.25em;
+  color: #A35D49;
+  margin: 0 0 10px 10px;
+}
+
+.sale__category-item-content {
+  color: #000000;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin: 5px 0;
+  display: inline-block;
+  opacity: 0.7;
+  margin-bottom: 1rem;
+  margin-left: 0.6rem;
+  margin-right: 0.4rem;
+}
+
+.sale__category-item-content:hover {
+  color: #A35D49;
+  opacity: 1;
+  font-weight: bold;
+}
+
+/* Tablet and Mobile w<=1023px */
+@media screen and (max-width: 63.9375em) {
+  
+}
+
+/* Tablet w>= 740px and w<=1024px*/
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  .sale__category-item-title {
+    font-size: 1.25em;
+  }
+
+  .sale__category-item-title {
+    font-size: 1.25em
+  }
+
+  .sale__category-item-content {
+    font-size: 1.25em;
+  }
+
+  .sale__category-gender-item {
+    font-size: 1.25em;
+  }
+
+  .sale__category-type {
+    font-size: 1.25em;
+  }
+}
+
+/* Mobile w<=739px */
+@media only screen and (max-width: 46.1875em) {
+  .sale__category-item-title {
+    font-size: 1em;
+  }
+
+  .sale__category-item-title {
+    font-size: 1em
+  }
+
+  .sale__category-item-content {
+    font-size: 1em;
+  }
+
+  .sale__category-gender-item {
+    font-size: 1em;
+  }
+
+  .sale__category-type {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,63 @@
+.result-search-order--detail {
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid #000;
+  padding: 20px 30px;
+  padding-bottom: 30px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.result-search-order--detail-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+  margin-bottom: 30px;
+}
+
+.result-search-order--detail-item {
+  display: flex;
+  justify-content: space-between;
+  line-height: 40px;
+}
+
+.result-search-order--detail-item-header {
+  font-size: 20px;
+  font-weight: medium;
+  color: rgb(136, 136, 136)
+} 
+
+.result-search-order--detail-line {
+  border-top: 1px solid #C7C2C1;
+  margin: 10px 0;
+}
+
+.result-search-order--detail-item-normal {
+  width: 200px;
+}
+
+.result-search-order--detail-item-quantity {
+  font-weight: bold;
+  margin-left: -200px;
+  width: 30px;
+}
+
+.result-search-order--detail-item-bold {
+  font-weight: bold;
+}
+
+.result-search-order--detail-address {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.result-search-order--detail-info {
+  line-height: 25px;
+}
+
+.result-search-order--detail-info-item {
+
+}
+

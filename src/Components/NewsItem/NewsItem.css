@@ -1,0 +1,33 @@
+
+.home__bottom-news-item {
+  width: 280px;
+  margin: 0 10px;
+  text-align: left;
+}
+
+.home__bottom-news-item-img {
+
+}
+
+.home__bottom-news-item-title {
+  font-size: 27px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.home__bottom-news-item-desc {
+  margin-bottom: 5px;
+  font-size: 16px;
+} 
+
+.home__bottom-news-item-more {
+  margin-bottom: 20px;
+  display: inline-block;
+  color: #855446;
+  text-decoration: none;
+}
+
+.home__bottom-news-item-more:hover {
+  font-weight: bold;
+  
+}

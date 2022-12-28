@@ -1,0 +1,19 @@
+.saleoff {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.saleoff > img {
+  object-fit: contain;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.saleoff > .saleoff__product {
+  width: 30%;
+  margin-bottom: 40px;
+}

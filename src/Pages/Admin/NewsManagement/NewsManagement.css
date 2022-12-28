@@ -1,0 +1,190 @@
+.news-mng {
+  max-width: 1200px;
+  margin: 0 auto 40px;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.news-mng-wrap {
+  display: flex;
+  margin: 0 0 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.news-mng-create {
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 23px;
+  color: #fff;
+  background-color: #B4624A;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  line-height: 60px;
+}
+
+.news-mng-wrap > button:hover {
+  background-color: #b57e6d;
+}
+
+.news-mng-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 430px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: #D7CECB;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.news-mng-search > input {
+  border: none;
+  outline: none;
+  background-color: #D7CECB;
+  color: #A38177;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.news-mng-search--icon {
+  color: #A38177;
+  font-size: 26px;
+  margin-right: 10px;
+}
+
+.news-mng > h1 {
+  margin-bottom: 30px;
+}
+
+.news-mng > table {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.news-mng > table,
+.news-mng > table tr {
+  border-collapse: collapse;
+}
+
+.news-mng > table tr {
+  height: 67px;
+  border-bottom: 2px #CBCBCB solid;
+}
+
+.news-mng > table th,
+.news-mng > table td {
+  text-align: center;
+  max-width: 250px;
+}
+
+.news-mng > table > thead {
+  background-color: #A38177;
+  color: #FFDDB6;
+  font-size: 20px;
+}
+
+.news-mng > table > tbody {
+  background-color: #F1EAEA;
+  color: #785044;
+}
+
+.news-mng-delete-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.news-mng-delete {
+  width: 650px;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #D7CECB;
+  position: relative;
+  border-radius: 10px;
+}
+
+.news-mng-delete > h3 {
+  width: 100%;
+  height: 70px;
+  background-color: #786059;
+  font-size: 25px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  justify-content: center;
+}
+
+.news-mng-delete-icon {
+  position: absolute;
+  font-size: 25px;
+  color: #D7CECB;
+  top: 22px;
+  cursor: pointer;
+  right: 10px;
+}
+
+.news-mng-delete > p {
+  margin: 30px auto;
+  font-size: 20px;
+}
+
+.news-mng-delete > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.news-mng-delete > div > div {
+  width: 225px;
+  height: 60px;
+  font-size: 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #B4624A;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-mng-delete button {
+  width: 225px;
+  height: 60px;
+  font-size: 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #AA918A;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.news-mng-delete button:hover {
+  background-color: #ac9e9a;
+}
+
+.news-mng-delete > div > div:hover {
+  background-color: #b77864;
+}

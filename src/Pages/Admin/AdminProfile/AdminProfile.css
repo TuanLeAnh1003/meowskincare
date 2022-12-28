@@ -1,0 +1,97 @@
+.ad-pfl {
+  width: 1075px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.ad-pfl > p {
+  margin-bottom: 40px;
+}
+
+.ad-pfl > .ad-pfl__cols {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.ad-pfl > .ad-pfl__cols > .ad-pfl__col-1 {
+  width: 70%;
+}
+
+.ad-pfl > .ad-pfl__cols > .ad-pfl__col-1 > .ad-pfl__field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.ad-pfl > .ad-pfl__cols > .ad-pfl__col-1 > .ad-pfl__field > input {
+  width: 600px;
+  height: 50px;
+  background-color: #EDE1DF;
+  border: 1px solid #000;
+  padding-left: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+.ad-pfl > .ad-pfl__cols > .ad-pfl__col-1 > .ad-pfl__field > .ad-pfl__genders {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ad-pfl__col-1 > .ad-pfl__field > .ad-pfl__genders > .ad-pfl__gender {
+  width: 33.333333%;
+  text-align: left;
+}
+
+.ad-pfl > .ad-pfl__cols > .ad-pfl__col-1 > .ad-pfl__field > .ad-pfl__date {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ad-pfl > .ad-pfl__cols > .ad-pfl__col-1 > .ad-pfl__field > .ad-pfl__date > select {
+  width: 146px;
+  height: 50px;
+  padding: 0 10px;
+  background-color: #EDE1DF;
+  border: 1px solid #000;
+  padding-left: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+.ad-pfl > .ad-pfl__cols > .ad-pfl__col-1 > .ad-pfl__field > .ad-pfl__button {
+  width: 600px;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.ad-pfl > .ad-pfl__cols > .ad-pfl__col-1 > .ad-pfl__field > .ad-pfl__button > button {
+  width: 150px;
+  height: 50px;
+  background-color: #B4624A;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+.ad-pfl > .ad-pfl__cols > .ad-pfl__col-2 {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.ad-pfl > .ad-pfl__cols > .ad-pfl__col-2 > button {
+  width: 125px;
+  height: 50px;
+  background-color: #fff;
+  font-size: 20px;
+  border: 2px #E5E5E5 solid;
+  border-radius: 10px;
+  margin: 10px 0 20px 0;
+}

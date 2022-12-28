@@ -1,0 +1,474 @@
+.pro-detail {
+  max-width: 1300px;
+  margin: 40px auto;
+}
+
+.pro-detail hr {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.pro-detail > .pro-detail__type {
+  display: flex;
+  list-style: none;
+  margin: 0 -10px;
+}
+
+.pro-detail > .pro-detail__type > li {
+  padding: 0 10px ;
+  border-right: 1px solid rgba(0, 0, 0, 0.14);
+  font-size: 20px;
+}
+
+.pro-detail > .pro-detail__type > li:nth-child(3) {
+  border-right: none;
+}
+
+.pro-detail__brief {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.pro-detail__brief > .pro-detail__imgs {
+  width: 47%;
+}
+
+.pro-detail__brief > .pro-detail__imgs > img {
+  object-fit: contain;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.pro-detail__brief > .pro-detail__imgs > .pro-detail__more-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pro-detail__brief > .pro-detail__imgs > .pro-detail__more-img > img {
+  object-fit: contain;
+  width: 24%;
+}
+
+.pro-detail__brief > .pro-detail__more {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pro-detail__brief > .pro-detail__more > h3 {
+  font-size: 30px;
+  color: #BC8677;
+}
+
+.pro-detail__brief > .pro-detail__more > .pro-detail__status {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.pro-detail__brief > .pro-detail__more > .pro-detail__description {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.pro-detail__more > .pro-detail__order {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pro-detail__more > .pro-detail__order > .pro-detail__colors {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.pro-detail__order > .pro-detail__colors > .pro-detail__color {
+  width: 40px;
+  height: 40px;
+}
+
+.pro-detail__order > .pro-detail__colors > .pro-detail__color:hover {
+  border: 1px solid #fff;
+  box-shadow: 5px 5px 5px #ccc;
+  cursor: pointer;
+}
+
+.pro-detail__more > .pro-detail__order > .pro-detail__quantity {
+  display: flex;
+  align-items: center;
+}
+
+.pro-detail__order > .pro-detail__quantity > h4 {
+  font-size: 24px;
+  margin-right: 40px;
+}
+
+.pro-detail__order > .pro-detail__quantity > .pro-detail__count {
+  display: flex;
+  align-items: center;
+}
+
+.pro-detail__order > .pro-detail__quantity > .pro-detail__count > span {
+  width: 20px;
+  height: 40px;
+  background-color: #eeeeee;
+  text-align: center;
+  line-height: 40px;
+}
+
+.pro-detail__order > .pro-detail__quantity > .pro-detail__count > span:last-child,
+.pro-detail__order > .pro-detail__quantity > .pro-detail__count > span:first-child:hover {
+  cursor: pointer;
+}
+
+.pro-detail__order > .pro-detail__quantity > .pro-detail__count > input {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #eeeeee;
+  outline: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+.pro-detail__order > .pro-detail__quantity > .pro-detail__count > input[type="number"]::-webkit-inner-spin-button,
+.pro-detail__order > .pro-detail__quantity > .pro-detail__count > input[type="number"]::-webkit-outer-spin-button  {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.pro-detail__more > .pro-detail__buttons > .add-to-cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.pro-detail__more > .pro-detail__buttons button {
+  height: 70px;
+  width: 100%;  
+  font-size: 25px;
+  background-color: #B4624A;
+  color: #fff;
+  border: none;
+}
+
+.pro-detail__more > .pro-detail__buttons > a {
+  padding: 10px 20px;
+  font-size: 25px;
+  background-color: #B4624A;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100%;
+  margin-left: 200px;
+  text-decoration: none;
+}
+
+.pro-detail__buttons {
+  margin-bottom: 50px;
+}
+
+.pro-detail__more > .pro-detail__buttons > a:hover {
+  background-color: #bb7c69;
+}
+
+.pro-detail__more > .pro-detail__buttons button:hover {
+  cursor: pointer;
+}
+
+.pro-detail__more > .pro-detail__buttons > .add-to-cart > button:first-child {
+  width: 70%;
+  background-color: #353131;
+}
+
+.pro-detail__more > .pro-detail__buttons > .add-to-cart > button:last-child {
+  width: 25%;
+  font-size: 50px;
+  color: #A35D49;
+  background-color: #353131;
+}
+
+.dotted-line {
+  margin: 10px 0;
+  width: 100%;
+  height: 1px;
+  border-top: 1px #000 dashed;
+}
+
+/* --------------------------- */
+
+.pro-detail__info > .pro-detail__info-titles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pro-detail__info > .pro-detail__info-titles > .pro-detail__info-title {
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  background-color: #EEE6E3;
+  color: #C16C53;
+  line-height: 50px;
+  font-size: 25px;
+}
+
+.pro-detail__info > .pro-detail__info-content {
+  height: 600px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pro-detail__info > .pro-detail__info-content > .pro-detail__info-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.pro-detail__info > .pro-detail__info-content > .pro-detail__info-first > p {
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+.pro-detail__info > .pro-detail__info-content > .pro-detail__info-first,
+.pro-detail__info > .pro-detail__info-content > .pro-detail__info-second  {
+  width: 47%;
+  height: 100%;
+}
+
+.pro-detail__info > .pro-detail__info-content > .pro-detail__info-second {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.pro-detail__info > .pro-detail__info-content > .erect-line {
+  height: 100%;
+  width: 1px;
+  background-color: #000;
+}
+
+.pro-detail__info > .pro-detail__info-content > .pro-detail__info-second > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 25px;
+  height: 100%;
+}
+
+.pro-detail__info-content > .pro-detail__info-second > ul > li {
+  margin-bottom: 10px;
+}
+
+/* ------------------------- */
+.pro-detail__policies {
+  font-size: 18px;
+}
+
+.pro-detail__policies > .pro-detail__policy-title {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: #EEE6E3;
+  color: #C16C53;
+  line-height: 50px;
+  font-size: 25px;
+  margin: 40px 0;
+}
+
+.pro-detail__policies > ul > li {
+  list-style-position: inside;
+  line-height: 22px;
+}
+
+.pro-detail__policies > h3 {
+  margin-top: 10px;
+}
+
+.pro-detail__policies > h3 > span {
+  font-weight: normal;
+}
+
+.pro-detail__policies > p {
+  margin: 10px 0;
+}
+
+/* ----------------------------- */
+.pro-detail__relation {
+  margin-bottom: 50px;
+}
+
+.pro-detail__relation > h2 {
+  text-align: center;
+  margin: 20px 0 40px 0;
+}
+
+.pro-detail__products-wrapper {
+  /* padding: 0 100px; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 -28px;
+}
+
+.pro-detail__products-wrapper > svg {
+  font-size: 60px;
+  color: #C4C4C4;
+  /* position: absolute; */
+  /* top: 30%; */
+}
+
+/* .pro-detail__products-wrapper > svg:nth-child(1) {
+  left: 55px;
+}
+
+.pro-detail__products-wrapper > svg:nth-child(3) {
+  right:55px;
+} */
+
+.pro-detail__products-wrapper > svg:hover {
+  cursor: pointer;
+}
+
+.pro-detail__products-wrapper > .pro-detail__products {
+  overflow-x: hidden;
+  /* margin: 0 100px; */
+}
+
+.pro-detail__products > .pro-detail__product-wrap {
+  position: relative;
+  list-style-type: none;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* margin: 0 2px; */
+  transition: ease 1s;
+}
+
+.pro-detail__product-wrap > li > .pro-detail__product-frame {
+  width: calc((102vw - 200px)/4);
+  margin-right: -7px;
+}
+
+.pro-detail__product-frame > .pro-detail__product {
+  width: 292px;
+}
+
+/* ------------------------- */
+.pro-detail__rating > h2 {
+  text-align: center;
+}
+
+.pro-detail__rating > .pro-detail__rating-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+  width: 100%;
+  border: 1px #c4c4c4 solid;
+  padding: 20px;
+}
+
+.pro-detail__rating > .pro-detail__rating-area > .pro-detail__rating-left {
+  width: 75%;
+}
+
+.pro-detail__rating > .pro-detail__rating-area > .pro-detail__rating-right {
+  width: 25%;
+  text-align: center;
+}
+
+.pro-detail__rating > .pro-detail__rating-area > .erect-line-2 {
+  width: 1px;
+  height: 340px;
+  background-color: #CBCBCB;
+}
+
+.pro-detail__rating-left > .pro-detail__rating-total {
+  display: flex;
+  align-items: center;
+}
+
+.pro-detail__rating-left > .pro-detail__rating-total > h2 {
+  color: #FE9727;
+  font-size: 35px;
+}
+
+.pro-detail__rating-left > .pro-detail__rating-total > .pro-detail__rating-stars > span > svg {
+  font-size: 35px;
+  color: #FFC700;
+}
+
+.pro-detail__rating-left > .pro-detail__rating-total > span {
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+.pro-detail__rating-left > .pro-detail__rating-detail {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.pro-detail__rating-left > .pro-detail__rating-detail > .pro-detail__rating-count {
+  width: 555px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #C16C53;
+  margin-left: 40px;
+}
+
+.pro-detail__rating-left > .pro-detail__rating-detail > span:first-child {
+  font-size: 25px;
+}
+
+.pro-detail__rating-left > .pro-detail__rating-detail > svg {
+  font-size: 25px;
+  color: #FFC700;
+}
+
+.pro-detail__rating-left > .pro-detail__rating-detail > span:last-child {
+  padding-left: 10px;
+  margin-left: 20px;
+  border-left: 1px solid #c4c4c4;
+}
+
+.pro-detail__rating-area > .pro-detail__rating-right > h3 {
+  font-size: 25px;
+}
+
+.pro-detail__rating-area > .pro-detail__rating-right > span > svg {
+  font-size: 50px;
+  color: #FFC700;
+}
+
+/* --------------------- */
+.pro-detail__comments > h3 {
+  font-size: 28px;
+  margin: 50px 0 20px 0;
+}
+
+.pro-detail__comments > .pro-detail__comment > h4,
+.pro-detail__comments > .pro-detail__comment > span > svg,
+.pro-detail__comments > .pro-detail__comment > p  {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.pro-detail__comments > .pro-detail__comment > p  {
+  max-width: 80%;
+}
+
+.pro-detail__comments > .pro-detail__comment > span > svg {
+  color: #FFC700;
+}

@@ -1,0 +1,89 @@
+.stt {
+  width: 1075px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.stt > h1 {
+  font-size: 35px;
+}
+
+.stt__choose {
+  display: flex;
+  align-items: center;
+
+}
+
+.stt__choose > .stt__by-month {
+  margin-left: 20px;  
+  width: 267px;
+}
+
+.stt__choose > .stt__by-month > p {
+  font-size: 20px;
+}
+
+ .stt__choose > .stt__by-month > .stt__list {
+  list-style: none;
+  width: 267px;
+  height: 58px;
+  overflow-y: scroll;
+  background-color: #EEE6E3;
+  font-size: 20px;
+  outline: none;
+  box-shadow: 0 4px 4px 0 #ccc;
+  border-radius: 10px;
+  border: none;
+ }
+
+.stt__choose > .stt__by-month > .stt__list > li {
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+  padding-left: 10px;
+
+}
+
+.stt__choose > .stt__by-month:hover > .stt__list {
+  display: block;
+}
+
+.stt__choose > .stt__by-month > .stt__list > li:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.stt__efficiency {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.stt__efficiency > .stt__line {
+  width: 90%;
+  height: 2px;
+  background-color: #CBCBCB;
+}
+
+.stt__table > table {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.stt__table > table, 
+.stt__table > table > tbody > tr,
+.stt__table > table > tbody > tr > td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.stt__table > table > tbody > tr {
+  height: 150px;
+}
+
+.stt__table > table > tbody > tr > td {
+  text-align: center;
+}
+

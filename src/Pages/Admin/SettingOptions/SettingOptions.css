@@ -1,0 +1,41 @@
+.setting {
+  width: 1075px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.setting > h1 {
+  font-size: 35px;
+}
+
+.setting > .setting__option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.setting > .setting__option > select {
+  width: 600px;
+  height: 60px;
+  background-color: #c2a297;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+  padding-left: 10px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+}
+
+.setting > .setting__option > button {
+  width: 100px;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  background-color: #dd5123;
+  color: #fff;
+  font-size: 14px;
+}
+
+.setting > .setting__option > button:hover {
+  cursor: pointer;
+}

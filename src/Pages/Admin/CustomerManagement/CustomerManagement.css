@@ -1,0 +1,75 @@
+.cus-mng {
+  width: 1075px;
+  margin: 0 auto 40px;
+  overflow-x: hidden;
+}
+
+.cus-mng > .cus-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.cus-mng > .cus-title > .cus-search {
+  position: relative;
+}
+
+.cus-mng > .cus-title > .cus-search > .cus-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 63px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+}
+
+.cus-mng > .cus-title > .cus-search > .cus-icon > svg {
+  margin: 0 auto;
+  color: #A38177;
+}
+
+.cus-mng > .cus-title > .cus-search > input {
+  width: 430px;
+  height: 60px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #D7CECB;
+  color: rgba(163, 129, 119, 0.53);
+  padding: 0 63px 0 10px;
+  font-size: 20px;
+}
+
+.cus-mng > table {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.cus-mng > table,
+.cus-mng > table tr {
+  border-collapse: collapse;
+}
+
+.cus-mng > table tr {
+  height: 67px;
+  border-bottom: 2px #CBCBCB solid;
+}
+
+.cus-mng > table th,
+.cus-mng > table td {
+  text-align: center;
+}
+
+.cus-mng > table > thead {
+  background-color: #A38177;
+  color: #FFDDB6;
+  font-size: 20px;
+}
+
+.cus-mng > table > tbody {
+  background-color: #F1EAEA;
+  color: #785044;
+}

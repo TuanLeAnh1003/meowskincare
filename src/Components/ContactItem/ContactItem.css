@@ -1,0 +1,24 @@
+.home__bottom-contact-item {
+  width: 226px;
+  display: block;
+  margin: 0 37px;
+}
+
+.home__bottom-contact-item-icon {
+  width: 70px;
+  height: 70px;
+  color: #786059;
+  margin-top: 10px;
+}
+
+.home__bottom-contact-item-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.home__bottom-contact-item-content {
+  font-size: 19px;
+  font-weight: medium;
+  margin: 10px 0;
+}

@@ -1,0 +1,52 @@
+.liked-product  {
+  max-width: 1300px;
+  margin: 50px auto;
+}
+
+.liked-product > h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.liked-product > p {
+  font-size: 20px;
+  color: #808080;
+}
+
+.liked-product > .liked-product__line {
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  margin: 15px 0 40px;
+}
+
+.liked-product > .liked-product__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.liked-product > .liked-product__buttons > button {
+  width: fit-content;
+  height: 50px;
+  background-color: #786059;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+
+.liked-product > .liked-product__buttons > a {
+  width: fit-content;
+  height: 50px;
+  background-color: #786059;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  padding: 0 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}

@@ -1,0 +1,27 @@
+.result-search-order--info {
+  width: 600px;
+  height: auto;
+  background-color: #FBF7F6;
+  margin: 0 auto 20px;
+  text-align: left;
+  padding: 1px;
+  padding-bottom: 40px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.result-search-order--info-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.result-search-order--info-list {
+  margin: 0 60px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.result-search-order--info-item {
+
+}

@@ -1,0 +1,75 @@
+.ord-mng {
+  width: 1075px;
+  margin: 0 auto 40px;
+  overflow-x: hidden;
+}
+
+.ord-mng > .ord-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.ord-mng > .ord-title > .ord-search {
+  position: relative;
+}
+
+.ord-mng > .ord-title > .ord-search > .ord-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 63px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+}
+
+.ord-mng > .ord-title > .ord-search > .ord-icon > svg {
+  margin: 0 auto;
+  color: #A38177;
+}
+
+.ord-mng > .ord-title > .ord-search > input {
+  width: 430px;
+  height: 60px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #D7CECB;
+  color: rgba(163, 129, 119, 0.53);
+  padding: 0 63px 0 10px;
+  font-size: 20px;
+}
+
+.ord-mng > table {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.ord-mng > table,
+.ord-mng > table tr {
+  border-collapse: collapse;
+}
+
+.ord-mng > table tr {
+  height: 67px;
+  border-bottom: 2px #CBCBCB solid;
+}
+
+.ord-mng > table th,
+.ord-mng > table td {
+  text-align: center;
+}
+
+.ord-mng > table > thead {
+  background-color: #A38177;
+  color: #FFDDB6;
+  font-size: 20px;
+}
+
+.ord-mng > table > tbody {
+  background-color: #F1EAEA;
+  color: #785044;
+}

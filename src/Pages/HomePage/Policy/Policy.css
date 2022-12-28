@@ -1,0 +1,35 @@
+.policy-body-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    padding: 50px 0px 20px 0px;
+    border-bottom: 2px solid #000000;
+  }
+  .policy-body-heading {
+    text-align: center;
+    background: #EEE6E3;
+    height: 40px;
+    margin: 40px 100px 0px 100px;
+    border-radius: 2px;
+    border-color: #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #C16C53;
+  }
+  .policy-body-content{
+    margin: 0px 100px 0px 100px;
+    line-height: 170%;
+    text-align: justify;
+  }
+  .policy{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+  }
