@@ -68,7 +68,7 @@ function About() {
       </div>
       <div className="about-container-2">
         <div className="ctn-2-left">
-          <img src={medImg} />
+          <img src="https://blog.shopbanmypham.vn/wp-content/uploads/2021/08/my-pham-lavish-640x427.png" />
         </div>
         <div className="ctn-2-right">
           <h2>SkinCare tại MeowSkinCare</h2>
@@ -83,10 +83,10 @@ function About() {
 
       <div className=" about-container-3">
         <div className="about-child-container">
-            <h2>VỀ UIT</h2>
+            <h2>VỀ MeowSkinCare</h2>
             <p>SkinCare tại MeowSkinCare</p>
             <h2>WEBSITE MeowSkinCare</h2>
-            <img src={vidImg} alt="" />
+            <img src="https://dangcapphaidep.vn/timthumb.php?src=https://cdn.dangcapphaidep.vn/wp-content/uploads/2019/12/M%E1%BB%B9-ph%E1%BA%A9m-Swissline-1.jpg&w=780&h=480&q=72" alt="" />
         </div>
         <div className="text-block-founder">
           <h2 className="founder">ĐỘI NGŨ LÃNH ĐẠO MeowSkinCare</h2>

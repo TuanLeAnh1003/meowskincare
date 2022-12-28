@@ -74,7 +74,7 @@
 }
 
 .about-container {
-  background: url('../../../Assets/Images/image 4.png');
+  background: url('https://bachthaoduoc.com.vn/uploads/cong-ty-xuat-nhap-khau-my-pham-4.jpg');
   width: 100%;
   height: 500px; 
   display: flex;
@@ -103,7 +103,7 @@
 }
 
 .about-container-4 {
-  background: url("../../../Assets/Images/image 5.png");
+  background: url("https://salt.tikicdn.com/cache/w1200/ts/product/eb/82/2e/f4b4909e15a8b19f70e5e07b5f880eab.jpg");
   width: 1200px;
   height: 500px;
   margin: 0 auto;
